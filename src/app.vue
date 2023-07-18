@@ -31,6 +31,7 @@
       <TheFooter class="mt-12" />
     </div>
   </div>
+  <NuxtPage />
 </template>
 
 <style lang="postcss">
