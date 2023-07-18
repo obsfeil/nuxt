@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "content-wind": "latest",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "@nuxt/strapi": "1.9.3"
   }
 }
