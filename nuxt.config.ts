@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     // '@nuxtjs/critters',
     '@nuxt/image-edge',
     '@nuxtjs/plausible',
+    '@nuxt/devtools',
     '@kevinmarrec/nuxt-pwa',
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts'
@@ -56,6 +57,14 @@ export default defineNuxtConfig({
     },
     workbox: false,
   },
+  devtools: {
+    // Enable devtools (default: true)
+    enabled: true,
+    // VS Code Server options
+    vscode: {},
+    // ...other options
+  },
+
   app: {
     head: {
       link: ['Light', 'Regular', 'Bold'].map(weight => ({
