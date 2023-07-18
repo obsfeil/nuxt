@@ -20,7 +20,6 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     '@nuxt/devtools',
     '@kevinmarrec/nuxt-pwa',
-    '@nuxtjs/strapi',
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts'
   ],
@@ -65,7 +64,8 @@ export default defineNuxtConfig({
     vscode: {},
     // ...other options
   },
-   app: {
+
+  app: {
     head: {
       link: ['Light', 'Regular', 'Bold'].map(weight => ({
         rel: 'preload',
