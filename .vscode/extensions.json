@@ -5,6 +5,7 @@
 		"codeium.codeium",
 		"vue.volar",
 		"vue.vscode-typescript-vue-plugin",
-		"glenn2223.live-sass"
+		"glenn2223.live-sass",
+		"dbaeumer.vscode-eslint"
 	]
 }
