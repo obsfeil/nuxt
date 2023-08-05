@@ -1,4 +1,4 @@
-// @ts-check
+
 import { Agent as HTTPSAgent } from 'node:https'
 import { $fetch } from 'ofetch'
 

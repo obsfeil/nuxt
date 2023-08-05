@@ -1,4 +1,3 @@
-// @ts-check
 import { fetch } from 'ofetch'
 import { load } from 'cheerio'
 import { consola } from 'consola'
