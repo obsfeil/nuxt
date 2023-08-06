@@ -8,6 +8,7 @@ const { resolve } = createResolver(import.meta.url)
 
 export default defineNuxtConfig({
   extends: '@nuxt-themes/ui-kit',
+
   modules: [
     '@nuxt/content',
     '@nuxt/devtools',
@@ -20,32 +21,39 @@ export default defineNuxtConfig({
     'nuxt-component-meta',
     'nuxt-lodash'
   ],
+
   runtimeConfig: {
     public: {
       version: pkg.version
     }
   },
+
   ui: {
     global: true,
     icons: ['heroicons', 'simple-icons'],
     safelistColors: excludeColors(colors)
   },
+
   googleFonts: {
     families: {
       Inter: [400, 500, 600, 700]
     }
   },
+
   routeRules: {
     '/': { redirect: '/getting-started', prerender: false }
   },
+
   nitro: {
     prerender: {
       routes: ['/getting-started']
     }
   },
+
   experimental: {
     payloadExtraction: false
   },
+
   componentMeta: {
     globalsOnly: true,
     exclude: [resolve('./components'), resolve('@nuxt-themes/ui-kit/components')],
@@ -56,8 +64,15 @@ export default defineNuxtConfig({
       exposed: false
     }
   },
+
   typescript: {
     strict: false,
     includeWorkspace: true
+  },
+
+  devtools: {
+    timeline: {
+      enabled: true
+    }
   }
 })
