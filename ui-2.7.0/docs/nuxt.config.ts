@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
     '@nuxt/devtools',
-   //'@nuxthq/studio,
+    // '@nuxthq/studio',
     module,
     '@nuxtjs/fontaine',
     '@nuxtjs/google-fonts',
@@ -45,13 +45,6 @@ export default defineNuxtConfig({
   },
   experimental: {
     payloadExtraction: false
-  },
-   devtools: {
-    // Enable devtools (default: true)
-    enabled: true,
-    // VS Code Server options
-    vscode: {}
-    // ...other options
   },
   componentMeta: {
     globalsOnly: true,
