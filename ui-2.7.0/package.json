@@ -52,7 +52,6 @@
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxt/module-builder": "^0.4.0",
-    "@nuxthq/ui": "2.7.0",
     "@nuxthq/ui-edge": "2.7.0-28185934.9ce3f49",
     "@nuxt-themes/ui-kit-edge": "^2.7.0",
     "@nuxtjs/google-fonts": "^3.0.2",
