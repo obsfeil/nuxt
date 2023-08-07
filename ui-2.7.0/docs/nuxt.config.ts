@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createResolver } from '@nuxt/kit'
 import colors from 'tailwindcss/colors'
 import module from '../src/module'
@@ -21,7 +22,11 @@ export default defineNuxtConfig({
     'nuxt-component-meta',
     'nuxt-lodash'
   ],
-
+  alias: {
+    // Define your aliases here
+    // 'module': './../imports.dts',
+    // '#build': 'module'
+  },
   runtimeConfig: {
     public: {
       version: pkg.version
