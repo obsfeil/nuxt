@@ -1,11 +1,9 @@
 
-[![Nuxt banner](./.github/assets/banner.png)](https://nuxt.com)
+# [![Nuxt banner](./.github/assets/banner.png)](https://nuxt.com)
 
 # 👋 Welcome to Nuxt
 
-
 Nuxt's goal is to make web development intuitive and performant, with a great developer experience.<br>Learn more in the ['What is Nuxt?'](https://nuxt.com/docs/getting-started/introduction) section of our documentation.
-
 
  <p>
   <a href="https://www.npmjs.com/package/nuxt"><img src="https://img.shields.io/npm/v/nuxt.svg?style=flat&colorA=18181B&colorB=28CF8D" alt="Version"></a>
@@ -126,4 +124,3 @@ You can find the code for Nuxt 2 on the [`2.x` branch](https://github.com/nuxt/n
 ## License
 
 [MIT](./LICENSE)
-

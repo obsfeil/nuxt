@@ -11,7 +11,7 @@ Within the template of a Vue component, you can access the router using `$router
 
 If you have a `pages/` folder, [`useRouter`](/docs/api/composables/use-router)  is identical in behavior to the one provided by `vue-router`. Feel free to read the router documentation for more information on what each method does.
 
-::ReadMore{link="https://router.vuejs.org/api/interfaces/Router.html#Properties-currentRoute"}
+::ReadMore{link="<https://router.vuejs.org/api/interfaces/Router.html#Properties-currentRoute"}>
 ::
 
 ## Basic Manipulation
@@ -40,7 +40,7 @@ router.push({ path: "/home" });
 router.replace({ hash: "#bio" });
 ````
 
-::ReadMore{link="https://developer.mozilla.org/en-US/docs/Web/API/History"}
+::ReadMore{link="<https://developer.mozilla.org/en-US/docs/Web/API/History"}>
 ::
 
 ## Navigation Guards
@@ -58,9 +58,11 @@ However, Nuxt has a concept of **route middleware** that simplifies the implemen
 - **onError:** Adds an error handler that is called every time a non caught error happens during navigation.
 - **resolve:** Returns the normalized version of a route location. Also includes an `href` property that includes any existing base.
 
-::ReadMore{link="https://router.vuejs.org/api/interfaces/Router.html#Methods"}
+::ReadMore{link="<[def]>
 ::
 
 ## Universal Router Instance
 
 If you do not have a `pages/` folder, then [`useRouter`](/docs/api/composables/use-router)  will return a universal router instance with similar helper methods, but be aware that not all features may be supported or behave in exactly the same way as with `vue-router`.
+
+[def]: ttps://router.vuejs.org/api/interfaces/Router.html#Methods"
