@@ -65,7 +65,6 @@
     "markdownlint-cli": "^0.33.0",
     "nitropack": "2.5.2",
     "nuxi": "workspace:*",
-    "nuxt": "workspace:*",
     "nuxt-vitest": "0.8.7",
     "ofetch": "1.1.1",
     "pathe": "1.1.1",

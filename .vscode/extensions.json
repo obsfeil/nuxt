@@ -6,6 +6,7 @@
 		"vue.vscode-typescript-vue-plugin",
 		"dbaeumer.vscode-eslint",
 		"antfu.vite",
-		"socketsecurity.vscode-socket-security"
+		"socketsecurity.vscode-socket-security",
+		"vue.volar"
 	]
 }
