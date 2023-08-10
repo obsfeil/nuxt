@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
 import { createResolver } from '@nuxt/kit'
 import colors from 'tailwindcss/colors'
 import module from '../src/module'
