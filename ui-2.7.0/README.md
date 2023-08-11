@@ -7,7 +7,7 @@
 
 This module has been developed by [NuxtLabs](https://nuxtlabs.com/) for [Volta](https://volta.net) and [Nuxt Studio](https://nuxt.studio/). It provides everything related to UI when building a Nuxt application, including components, icons, colors, dark mode and also keyboard shortcuts.
 
-[![social preview](https://repository-images.githubusercontent.com/428329515/5a18c5dd-bb58-4874-b6ef-1c44e4884344)](https://ui.nuxtlabs.com)
+[![social preview](https://repository-images.githubusercontent.com/428329515/5a18c5dd-bb58-4874-b6ef-1c44e4884344)][def]
 
 ## Features
 
@@ -47,7 +47,7 @@ If you want latest updates, please use `@nuxthq/ui-edge` in your `package.json`:
 
 ## Documentation
 
-Visit https://ui.nuxtlabs.com to view the documentation.
+Visit <[def]> to view the documentation.
 
 ## Credits
 
@@ -75,3 +75,4 @@ Licensed under the [MIT license](https://github.com/nuxtlabs/ui/blob/dev/LICENSE
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
+[def]: https://ui.nuxtlabs.co
