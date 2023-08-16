@@ -77,7 +77,7 @@ Nuxt's goal is to make web development intuitive and performant, with a great de
     <h3>Reporting bugs</h3>
     <p>
       Check out the <a href="https://nuxt.com/docs/community/reporting-bugs">Reporting Bugs</a> page.</p>
-    </p>
+
   </td>
 </tr>
 <tr>
