@@ -26,6 +26,7 @@ export default defineComponent({
     }
   },
   setup (props, { slots }) {
+    // eslint-disable-next-line vue/no-setup-props-destructure
     const indicator = useLoadingIndicator({
       duration: props.duration,
       throttle: props.throttle
