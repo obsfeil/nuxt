@@ -1,0 +1,3 @@
+issueRules:
+  binScriptConfusion: false
+  telemetry: false
