@@ -1,5 +1,5 @@
 
-# [![Nuxt banner](./.github/assets/banner.png)](https://nuxt.com)
+# [![Nuxt banner](./.github/assets/banner.png)(https://nuxt.com)
 
 # 👋 Welcome to Nuxt
 

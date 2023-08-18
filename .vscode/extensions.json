@@ -5,6 +5,7 @@
 		"codeium.codeium",
 		"vue.vscode-typescript-vue-plugin",
 		"dbaeumer.vscode-eslint",
-		"antfu.vite"
+		"antfu.vite",
+		"nuxt.mdc"
 	]
 }
