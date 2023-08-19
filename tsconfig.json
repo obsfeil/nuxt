@@ -39,10 +39,6 @@
   },
   "exclude": [
     "**/dist/**",
-    "**/.nuxt/**",
-    "**/nuxt.d.ts",
-    "**/examples/**",
-    "**/docs/**",
     "**/playground/**",
     "**/test/fixtures/**",
     "test/nuxt/**"

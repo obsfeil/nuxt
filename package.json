@@ -7,7 +7,7 @@
   "scripts": {
     "build": "pnpm --filter './packages/**' prepack",
     "build:stub": "pnpm --filter './packages/**' prepack --stub",
-    "cleanup": "rimraf 'packages/**/node_modules' 'examples/**/node_modules' 'docs/node_modules' 'playground/node_modules' 'node_modules'",
+    "c cleanup": "rimraf 'packages/**/node_modules' 'examples/**/node_modules' 'docs/node_modules' 'playground/node_modules' 'node_modules'",
     "dev": "pnpm play",
     "lint": "eslint --ext .vue,.ts,.js,.mjs .",
     "lint:fix": "eslint --ext .vue,.ts,.js,.mjs . --fix",
@@ -43,7 +43,8 @@
     "@actions/core": "1.10.0",
     "@nuxt/test-utils": "workspace:*",
     "@nuxt/webpack-builder": "workspace:*",
-    "@nuxthq/ui": "^2.7.0",
+    "@nuxthq/ui": "npm:@nuxthq/ui-edge@latest",
+    "@nuxt/devtools": "npm:@nuxt/devtools-edge@latest",
     "@nuxtjs/eslint-config-typescript": "12.0.0",
     "@types/fs-extra": "11.0.1",
     "@types/node": "18.16.19",

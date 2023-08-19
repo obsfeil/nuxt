@@ -4,8 +4,7 @@
 	"recommendations": [
 		"codeium.codeium",
 		"vue.vscode-typescript-vue-plugin",
-		"dbaeumer.vscode-eslint",
 		"antfu.vite",
-		"nuxt.mdc"
+		"nuxt.mdc",
 	]
 }
